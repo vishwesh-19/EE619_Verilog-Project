@@ -7,6 +7,6 @@ File "backend.v" has the verilog code for the backend module.
 "comp.vcd" contains the simulation waveforms, defined in "backend_tb.v"
 
 Simulation commands:
-iverilog -o backend_tb.vvp backend_tb.v
-vvp backend_tb.vvp
+iverilog -o backend_tb.vvp backend_tb.v 
+vvp backend_tb.vvp 
 gtkwave comp.vcd
